@@ -1,0 +1,110 @@
+.wrapper {
+  width: 100%;
+  height: unset;
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.image {
+  width: 56px;
+  height: 56lpx;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 12px;
+  font-weight: 300;
+}
+
+.description {
+  margin-right: 112px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.nickname {
+  margin-right: 4px;
+}
+
+.name {
+  font-size: 14px;
+  color: rgb(162, 163, 171);
+  font-weight: 200;
+}
+
+.music,
+.edit-tool,
+.local {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.icon-local {
+  color: rgb(19, 189, 144);
+}
+
+.follow-btn {
+  position: absolute;
+  top: 28px;
+  right: 0;
+}
+
+.videos {
+  display: flex;
+  width: 100%;
+  height: unset;
+}
+
+.video-item {
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 48px;
+  height: 78px;
+  cursor: pointer;
+}
+
+.action-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgba(22, 24, 35, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-icon {
+  width: 24px;
+  height: 24px;
+}
